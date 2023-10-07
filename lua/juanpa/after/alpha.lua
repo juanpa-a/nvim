@@ -37,16 +37,6 @@ dashboard.section.buttons.val = {
 --   ```
 -- local fortune = require("alpha.fortune")
 
--- Calculate startup time in milliseconds
--- Calculate startup time in milliseconds
-local start_time = vim.fn.reltime()
-
-local end_time = vim.fn.reltime(start_time)
-local startup_time = (end_time[1] * 1000) + (end_time[2] / 1000)
-
--- Set footer
-local footer = "⚡ Neovim started in " .. startup_time .. "ms"
-dashboard.section.footer.val = { footer }
 
 
 -- Send config to alpha
