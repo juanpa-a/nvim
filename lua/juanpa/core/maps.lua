@@ -16,7 +16,7 @@ keymap.set('n', 'x', '"_x')
 -- Increment/decrement
 keymap.set('n', '+', '<C-a>')
 keymap.set('n', '-', '<C-x>')
-s
+
 -- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
