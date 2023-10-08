@@ -1,0 +1,5 @@
+require("juanpa.config.telescope")
+require("juanpa.config.cmp")
+require("juanpa.config.lsp")
+require("juanpa.config.treesitter")
+require("juanpa.config.alpha")
